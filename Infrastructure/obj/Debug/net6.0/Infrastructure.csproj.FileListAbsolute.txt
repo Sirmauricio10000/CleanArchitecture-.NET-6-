@@ -1,0 +1,15 @@
+/media/mauricio/Acer/Proyectos/DOTNET/Prueba_Tecnica2/Infrastructure/bin/Debug/net6.0/Infrastructure.deps.json
+/media/mauricio/Acer/Proyectos/DOTNET/Prueba_Tecnica2/Infrastructure/bin/Debug/net6.0/Infrastructure.dll
+/media/mauricio/Acer/Proyectos/DOTNET/Prueba_Tecnica2/Infrastructure/bin/Debug/net6.0/ref/Infrastructure.dll
+/media/mauricio/Acer/Proyectos/DOTNET/Prueba_Tecnica2/Infrastructure/bin/Debug/net6.0/Infrastructure.pdb
+/media/mauricio/Acer/Proyectos/DOTNET/Prueba_Tecnica2/Infrastructure/bin/Debug/net6.0/Core.dll
+/media/mauricio/Acer/Proyectos/DOTNET/Prueba_Tecnica2/Infrastructure/bin/Debug/net6.0/Core.pdb
+/media/mauricio/Acer/Proyectos/DOTNET/Prueba_Tecnica2/Infrastructure/obj/Debug/net6.0/Infrastructure.csproj.AssemblyReference.cache
+/media/mauricio/Acer/Proyectos/DOTNET/Prueba_Tecnica2/Infrastructure/obj/Debug/net6.0/Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/media/mauricio/Acer/Proyectos/DOTNET/Prueba_Tecnica2/Infrastructure/obj/Debug/net6.0/Infrastructure.AssemblyInfoInputs.cache
+/media/mauricio/Acer/Proyectos/DOTNET/Prueba_Tecnica2/Infrastructure/obj/Debug/net6.0/Infrastructure.AssemblyInfo.cs
+/media/mauricio/Acer/Proyectos/DOTNET/Prueba_Tecnica2/Infrastructure/obj/Debug/net6.0/Infrastructure.csproj.CoreCompileInputs.cache
+/media/mauricio/Acer/Proyectos/DOTNET/Prueba_Tecnica2/Infrastructure/obj/Debug/net6.0/Infrastructure.csproj.CopyComplete
+/media/mauricio/Acer/Proyectos/DOTNET/Prueba_Tecnica2/Infrastructure/obj/Debug/net6.0/Infrastructure.dll
+/media/mauricio/Acer/Proyectos/DOTNET/Prueba_Tecnica2/Infrastructure/obj/Debug/net6.0/ref/Infrastructure.dll
+/media/mauricio/Acer/Proyectos/DOTNET/Prueba_Tecnica2/Infrastructure/obj/Debug/net6.0/Infrastructure.pdb

@@ -55,3 +55,4 @@
 /media/mauricio/Acer/Proyectos/DOTNET/Prueba_Tecnica2/API/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 /media/mauricio/Acer/Proyectos/DOTNET/Prueba_Tecnica2/API/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
 /media/mauricio/Acer/Proyectos/DOTNET/Prueba_Tecnica2/API/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
+/media/mauricio/Acer/Proyectos/DOTNET/Prueba_Tecnica2/API/bin/Debug/net6.0/Newtonsoft.Json.dll

@@ -2,8 +2,10 @@ using System.Text;
 using AspNetCore.Identity.MongoDbCore.Infrastructure;
 using Core.Entities;
 using Core.Interfaces;
+using Core.Interfaces.Authentication;
 using Core.Services;
 using Infrastructure.Context;
+using Infrastructure.Jwt;
 using Infrastructure.Repositories;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
@@ -18,25 +20,19 @@ builder.Services.AddSingleton<IContext, Context>();
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddSingleton<IJwtServices, JwtService>();
 
-// JWT
-builder.Services.AddAuthentication(options =>
+
+//Cors
+builder.Services.AddCors(options =>
 {
-    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-})
-.AddJwtBearer(options =>
-{
-    options.TokenValidationParameters = new TokenValidationParameters
-    {
-        ValidateIssuer = true,
-        ValidateAudience = true,
-        ValidateLifetime = true,
-        ValidateIssuerSigningKey = true,
-        ValidIssuer = "Mauricio Avendaño", 
-        ValidAudience = "ValidAudience", 
-        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("f1nj34fn114123r81hf12d812d982121fd21r")) 
-    };
+    options.AddPolicy(name: "Cors",
+        builder =>
+        {
+            builder.WithOrigins("*");
+            builder.AllowAnyMethod();
+            builder.AllowAnyHeader();
+        });
 });
 
 
@@ -52,6 +48,8 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
+
+app.UseCors("Cors");
 
 app.MapControllers();
 
